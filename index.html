@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLOTHS</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/1de3ee08ba.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+<body>
+    <header id="navbar" >
+        <nav class="navbar">
+            <div class="section-1">
+                <a href="index.html"><img src="img/black-logo.webp" alt="logo"></a>
+            </div>
+            <ul class="section-2">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <!-- <li><a href="">Pages</a></li> -->
+                <li><a href="custome.html">Customize</a></li>
+                <li><a href="contact us/contact.html">Contact</a></li>
+            </ul>
+            <div class="section-3">
+                <div class="wrap">
+                    <div class="search">
+                       <input type="text" class="searchTerm" placeholder="What are you looking for?">
+                       <button type="submit" class="searchButton">
+                         <i class="fa fa-search"></i>
+                      </button>
+                    </div>
+                 </div> 
+                <a href="#" id="cart-icon"><i class="fas fa-shopping-cart"></i></a>
+                <div class="cart">
+                    <h2 class="cart-title">Your Cart</h2>
+                    <div class="cart-content">
+                        <!-- <div class="cart-box">
+                            <img src="img/product/product-1.jpg" alt="" class="cart-img">
+                            <div class="detail-box">
+                                <div class="cart-product-title">Clothes</div>
+                                <div class="cart-price">$25</div>
+                                <input type="number" value="1" class="cart-quantity">
+                            </div>
+                            <i class="fas fa-trash btn-danger"></i>
+                        </div> -->
+                    </div>
+                    <div class="total">
+                        <div class="total-title">Total</div>
+                        <div class="total-price">$0</div>
+                    </div>
+
+                    <button type="button" class="btn-buy">Buy Now</button>
+                    <i class="fas fa-times" id="close-cart"></i>
+                </div>
+
+
+                <a href="login/index.html" id="login"><i class="far fa-user-circle"></i></a>
+                <div class="hamburger">
+                    <span class="top"></span>
+                    <span class="middle"></span>
+                    <span class="bottom"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main id="home" class="home">
+        <div class="home-1">
+            <p class="p-1">Summer Collection</p>
+            <h1>Fall Winter<br>Collection 2022</h1>
+            <p class="p-2">A specilalist label creating luxury essentials.Ethically crafted<br> with an unwaverin commitment to expectional quality</p>
+            <button type="button"><a href="shop.html" style="color: white;">Shop Now</a> <i class="fas fa-arrow-right"></i></button>
+        </div>
+    </main>
+
+    <main class="collection">
+        <div class="collection-0">
+            <div class="collection-1 collect">
+                <div>
+                    <h1>Clothings<br>Collections 2022</h1>
+                    <a href="">SHOP NOW</a><br>
+                </div>
+                <img src="img/banner/banner1.webp">
+            </div>
+            <div class="collection-3 collect">
+                <div>
+                    <h1>Accessories</h1>
+                    <a href="">SHOP NOW</a><br>
+                </div>
+                <img src="img/banner/banner3.webp">
+            </div>
+        </div>
+        <div class="collection-2 collect">
+            <div>
+                <h1>Spec<br>Spring 2022</h1>
+                <a href="">SHOP NOW</a><br>
+            </div>
+            <img src="img/banner/banner2.webp">
+        </div>
+    </main>
+
+    <main class="custom">
+        <h1 class="heading">Handcrafted Clothes!!!</h1>
+        <main class="customize">
+            <div class="customize1 cust">
+                <h1>Sweatshirt</h1>
+                <img src="img/types/sweat1.png" alt="" class="customize-img">
+                <a href="sweatshirt.html">Customize</a>
+            </div>
+            <div class="customize1 cust">
+                <h1>Hoodies</h1>
+                <img src="img/types/hoodie1.png" alt="" class="customize-img">
+                <a href="hoodies.html">Customize</a>
+            </div>
+            <div class="customize1 cust">
+                <h1>T-shirt</h1>
+                <img src="img/types/T-shirt1.png" alt="" class="customize-img">
+                <a href="custome.html">Customize</a>
+            </div>
+        </main>
+    </main>
+
+    <main class="next" id="next">
+        <div class="product-type">
+            <ul class="filters">
+                <li class="filter-list"><h3 id="link-1" class="filter-link active">Best Sellers</h3></li>
+                <!-- <li class="filter-list"><h3 id="link-2" class="filter-link">New Arrivals</h3></li>
+                <li class="filter-list"><h3 id="link-3" class="filter-link">Hot Sales</h3></li> -->
+            </ul>
+        </div>
+        <div class="product-containers">
+            <div class="product-item pro-1">
+                <img src="img/product/product-1.jpg" alt="" class="product-img">
+                <div class="info">
+                    <h2>PRODUCT 1</h2>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>$67.24</p>
+                    <button class="cart-btn"><a href="" class="cart-link">+ Add to cart</a></button>
+                </div>
+            </div>
+            <div class="product-item pro-2">
+                <img src="img/product/product-2.jpg" alt="" class="product-img">
+                <div class="info">
+                    <h2>PRODUCT 2</h2>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p>$67.24</p>
+                    <button class="cart-btn"><a href="" class="cart-link">+ Add to cart</a></button>
+                </div>
+            </div>
+            <div class="product-item pro-3">
+                <img src="img/product/product-3.jpg" alt="" class="product-img">
+                <div class="info">
+                    <h2>PRODUCT 3</h2>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>$67.24</p>
+                    <button class="cart-btn"><a href="" class="cart-link">+ Add to cart</a></button>
+                </div>
+            </div>
+            <div class="product-item pro-4">
+                <img src="img/product/product-4.jpg" alt="" class="product-img">
+                <div class="info">
+                    <h2>PRODUCT 4</h2>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>$67.24</p>
+                    <button class="cart-btn"><a href="" class="cart-link">+ Add to cart</a></button>
+                </div>
+            </div>
+            <div class="product-item pro-5">
+                <img src="img/product/product-5.jpg" alt="" class="product-img">
+                <div class="info">
+                    <h2>PRODUCT 5</h2>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p>$67.24</p>
+                    <button class="cart-btn"><a href="" class="cart-link">+ Add to cart</a></button>
+                </div>
+            </div>
+            <div class="product-item pro-6">
+                <img src="img/product/product-6.jpg" alt="" class="product-img">
+                <div class="info">
+                    <h2>PRODUCT 6</h2>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>$67.24</p>
+                    <button class="cart-btn"><a href="" class="cart-link">+ Add to cart</a></button>
+                </div>
+            </div>
+            <div class="product-item pro-7">
+                <img src="img/product/product-7.jpg" alt="" class="product-img">
+                <div class="info">
+                    <h2>PRODUCT 7</h2>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p>$67.24</p>
+                    <button class="cart-btn"><a href="" class="cart-link">+ Add to cart</a></button>
+                </div>
+            </div>
+            <div class="product-item pro-8">
+                <img src="img/product/product-8.jpg" alt="" class="product-img">
+                <div class="info">
+                    <h2>PRODUCT 8</h2>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p>$67.24</p>
+                    <button class="cart-btn"><a href="" class="cart-link">+ Add to cart</a></button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <main class="sale">
+        <div class="sales-info">
+            <p class="sales-txt">DEAL OF THE WEEK</p>
+            <h3>Western & Ethnic Clothes<br>waiting For You</h3>
+            <p id="sales-timer"></p>
+            <button class="sales-shop"><a href="shop.html" style="color: white;">SHOP NOW</a></button>
+        </div>
+    </main>
+
+    <main class="stylist">
+        <h1 class="trend">Fashion Trend and Stylist</h1>
+        <div class="fashion-trend">
+            <div class="stylist-info">
+                <img src="img/blog/blog-1.jpg" alt="" class="stylist-img">
+                <div class="small-div">
+                    <p class="date"><i class="fas fa-calendar"></i>17 February 2022</p>
+                    <h3 class="ideas">No idea about dressing sense? <br> Worry not we got you.</h3>
+                    <a href="https://www.stitchfix.com/personal-stylists" class="redirect-link">Read More</a>
+                </div>
+            </div>  
+            <div class="stylist-info">
+                <img src="img/blog/blog-2.jpg" alt="" class="stylist-img">
+                <div class="small-div">
+                    <p class="date"><i class="fas fa-calendar"></i>12 October 2021</p>
+                    <h3 class="ideas">No idea about dressing color? <br> Worry not we got you.</h3>
+                    <a href="https://www.bewakoof.com/blog/10-best-clothing-colour-combination-ideas-for-men/" class="redirect-link">Read More</a>
+                </div>
+            </div>
+            <div class="stylist-info">
+                <img src="img/blog/blog-3.jpg" alt="" class="stylist-img">
+                <div class="small-div">
+                    <p class="date"><i class="fas fa-calendar"></i>11 July 2020</p>
+                    <h3 class="ideas">No idea about any accessories? <br> Worry not we got you.</h3>
+                    <a href="https://stylenook.in/ " class="redirect-link">Read More</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <main class="footer">
+        <div class="footer-container">
+            <div class="col-1">
+                <div class="row-0">
+                    <img src="img/logo.webp" alt="logo">
+                    <p>The customer is at the heart of our <br> unique business model, which includes <br> design.</p>
+                    <a href=""><img src="img/payment.webp" alt="payment-logo"></a>
+                </div>
+                <div class="row row-1">
+                    <h3>SHOPPING</h3>
+                    <ul class="footer-shopping-link">
+                        <li><a href="">Clothing Store</a></li>
+                        <li><a href="">Trending Shoes</a></li>
+                        <li><a href="">Accessories</a></li>
+                        <li><a href="">Sale</a></li>
+                    </ul>
+                </div>
+                <div class="row row-2">
+                    <h3>SHOPPING</h3>
+                    <ul class="footer-shopping-link">
+                        <li><a href="">Contact Us</a></li>
+                        <li><a href="">Payment Method</a></li>
+                        <li><a href="">Delivery</a></li>
+                        <li><a href="">Return & Packages</a></li>
+                    </ul>
+                </div>
+                <div class="row-3">
+                    <h1>NEWLETTER</h1>
+                    <p>Be the first to know about new <br> arrivals, look books, sales & promos!</p>
+                    <form action="" method="post">
+                        <input type="email" name="email-id" placeholder="Your email">
+                        <button type="submit"><i class="fa fa-envelope-o"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="hr">
+                <hr>
+            </div>
+            <div class="col-2">
+                <p>All right reserved to GROUP 8.</p>
+            </div>
+        </div>
+    </main>
+
+    <script src="shop.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

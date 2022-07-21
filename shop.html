@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CART</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://kit.fontawesome.com/1de3ee08ba.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+        <script src="shop.js" async defer></script>
+    </head>
+    <body>
+        <header id="navbar" >
+            <nav class="navbar">
+                <div class="section-1">
+                    <a href="index.html"><img src="img/black-logo.webp" alt="logo"></a>
+                </div>
+                <ul class="section-2">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <!-- <li><a href="">Pages</a></li> -->
+                    <li><a href="custome.html">Customisation</a></li>
+                    <li><a href="contact us/contact.html">Contact</a></li>
+                </ul>
+                <div class="section-3">
+                    <div class="wrap">
+                        <div class="search">
+                           <input type="text" class="searchTerm" placeholder="What are you looking for?">
+                           <button type="submit" class="searchButton">
+                             <i class="fa fa-search"></i>
+                          </button>
+                        </div>
+                     </div>
+                    <a href="#" id="cart-icon"><i class="fas fa-shopping-cart"></i></a>
+                    <div class="cart">
+                        <h2 class="cart-title">Your Cart</h2>
+                        <div class="cart-content">
+                            
+                        </div>
+                        <div class="total">
+                            <div class="total-title">Total</div>
+                            <div class="total-price">$0</div>
+                        </div>
+
+                        <button type="button" class="btn-buy">Buy Now</button>
+                        <i class="fas fa-times" id="close-cart"></i>
+                    </div>
+                    <a href="login/index.html" id="login"><i class="far fa-user-circle"></i></a>
+                    <div class="hamburger">
+                        <span class="top"></span>
+                        <span class="middle"></span>
+                        <span class="bottom"></span>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main class="cart-container-1 content-section">
+            <h2 class="section-header">Products</h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <img class="shop-item-image" src="img/product/product-1.jpg">
+                    <h2 class="shop-item-title">Album 1</h2>
+                    <div class="shop-item-details">
+                        <p class="shop-item-price">$12.99</p>
+                        <button class="btn-1 btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <img class="shop-item-image" src="img/product/product-2.jpg">
+                    <h2 class="shop-item-title">Album 2</h2>
+                    <div class="shop-item-details">
+                        <p class="shop-item-price">$14.99</p>
+                        <button class="btn-1 btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <img class="shop-item-image" src="img/product/product-3.jpg">
+                    <h2 class="shop-item-title">Album 1</h2>
+                    <div class="shop-item-details">
+                        <p class="shop-item-price">$9.99</p>
+                        <button class="btn-1 btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <img class="shop-item-image" src="img/product/product-4.jpg">
+                    <h2 class="shop-item-title">Album 1</h2>
+                    <div class="shop-item-details">
+                        <p class="shop-item-price">$19.99</p>
+                        <button class="btn-1 btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <img class="shop-item-image" src="img/product/product-5.jpg">
+                    <h2 class="shop-item-title">Album 1</h2>
+                    <div class="shop-item-details">
+                        <p class="shop-item-price">$12.99</p>
+                        <button class="btn-1 btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <img class="shop-item-image" src="img/product/product-6.jpg">
+                    <h2 class="shop-item-title">Album 1</h2>
+                    <div class="shop-item-details">
+                        <p class="shop-item-price">$14.99</p>
+                        <button class="btn-1 btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <img class="shop-item-image" src="img/product/product-7.jpg">
+                    <h2 class="shop-item-title">Album 1</h2>
+                    <div class="shop-item-details">
+                        <p class="shop-item-price">$9.99</p>
+                        <button class="btn-1 btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <img class="shop-item-image" src="img/product/product-8.jpg">
+                    <h2 class="shop-item-title">Album 1</h2>
+                    <div class="shop-item-details">
+                        <p class="shop-item-price">$19.99</p>
+                        <button class="btn-1 btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <img class="shop-item-image" src="img/product/product-1.jpg">
+                    <h2 class="shop-item-title">Album 1</h2>
+                    <div class="shop-item-details">
+                        <p class="shop-item-price">$12.99</p>
+                        <button class="btn-1 btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <img class="shop-item-image" src="img/product/product-2.jpg">
+                    <h2 class="shop-item-title">Album 1</h2>
+                    <div class="shop-item-details">
+                        <p class="shop-item-price">$14.99</p>
+                        <button class="btn-1 btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <img class="shop-item-image" src="img/product/product-3.jpg">
+                    <h2 class="shop-item-title">Album 1</h2>
+                    <div class="shop-item-details">
+                        <p class="shop-item-price">$9.99</p>
+                        <button class="btn-1 btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <img class="shop-item-image" src="img/product/product-4.jpg">
+                    <h2 class="shop-item-title">Album 1</h2>
+                    <div class="shop-item-details">
+                        <p class="shop-item-price">$19.99</p>
+                        <button class="btn-1 btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <!-- <div class="shop-item">
+                    <img class="shop-item-image" src="img/product/product-5.jpg">
+                    <h2 class="shop-item-title">Album 1</h2>
+                    <div class="shop-item-details">
+                        <p class="shop-item-price">$12.99</p>
+                        <button class="btn-1 btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <img class="shop-item-image" src="img/product/product-6.jpg">
+                    <h2 class="shop-item-title">Album 1</h2>
+                    <div class="shop-item-details">
+                        <p class="shop-item-price">$14.99</p>
+                        <button class="btn-1 btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <img class="shop-item-image" src="img/product/product-7.jpg">
+                    <h2 class="shop-item-title">Album 1</h2>
+                    <div class="shop-item-details">
+                        <p class="shop-item-price">$9.99</p>
+                        <button class="btn-1 btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <img class="shop-item-image" src="img/product/product-8.jpg">
+                    <h2 class="shop-item-title">Album 1</h2>
+                    <div class="shop-item-details">
+                        <p class="shop-item-price">$19.99</p>
+                        <button class="btn-1 btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div> -->
+            </div>
+        </main>
+
+        <main class="footer footer-custome footer-cart">
+            <div class="footer-container">
+                <div class="col-1">
+                    <div class="row-0">
+                        <img src="img/logo.webp" alt="logo">
+                        <p>The customer is at the heart of our <br> unique business model, which includes <br> design.</p>
+                        <a href=""><img src="img/payment.webp" alt="payment-logo"></a>
+                    </div>
+                    <div class="row row-1">
+                        <h3>SHOPPING</h3>
+                        <ul class="footer-shopping-link">
+                            <li><a href="">Clothing Store</a></li>
+                            <li><a href="">Trending Shoes</a></li>
+                            <li><a href="">Accessories</a></li>
+                            <li><a href="">Sale</a></li>
+                        </ul>
+                    </div>
+                    <div class="row row-2">
+                        <h3>SHOPPING</h3>
+                        <ul class="footer-shopping-link">
+                            <li><a href="">Contact Us</a></li>
+                            <li><a href="">Payment Method</a></li>
+                            <li><a href="">Delivery</a></li>
+                            <li><a href="">Return & Packages</a></li>
+                        </ul>
+                    </div>
+                    <div class="row-3">
+                        <h1>NEWLETTER</h1>
+                        <p>Be the first to know about new <br> arrivals, look books, sales & promos!</p>
+                        <form action="" method="post">
+                            <input type="email" name="email-id" placeholder="Your email">
+                            <button type="submit"><i class="fa fa-envelope-o"></i></button>
+                        </form>
+                    </div>
+                </div>
+                <div class="hr">
+                    <hr>
+                </div>
+                <div class="col-2">
+                    <p>All right reserved to GROUP 8.</p>
+                </div>
+            </div>
+        </main>
+
+
+
+    </body>
+</html>

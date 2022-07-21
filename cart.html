@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CART</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://kit.fontawesome.com/1de3ee08ba.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+        
+        <script src="shop.js" async></script>
+    </head>
+    <body>
+        <header id="navbar" >
+            <nav class="navbar">
+                <div class="section-1">
+                    <img src="img/black-logo.webp" alt="logo">
+                </div>
+                <ul class="section-2">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="">Pages</a></li>
+                    <li><a href="custome.html">Customisation</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+                <div class="section-3">
+                    <i class="fas fa-search"></i>
+                    <a href="#" id="cart-page"><i class="fas fa-shopping-cart"></i></a>
+                    <i class="far fa-user-circle"></i>
+                    <div class="hamburger">
+                        <span class="top"></span>
+                        <span class="middle"></span>
+                        <span class="bottom"></span>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main class="cart-container content-section">
+            <h2 class="section-header">CART</h2>
+            <!-- <div class="cart-row">
+                <a class="cart-item cart-header cart-column">ITEM</a>
+                <a class="cart-price cart-header cart-column">PRICE</a>
+                <a class="cart-quantity cart-header cart-column">QUANTITY</a>
+            </div> -->
+            <div class="cart-items">
+                <div class="cart-row">
+                    <div class="cart-item cart-column">
+                        <img class="cart-item-image" src="img/product/product-2.jpg">
+                        <span class="cart-item-title">T-Shirt</span>
+                    </div>
+                    <span class="cart-price cart-column">$19.99</span>
+                    <div class="cart-quantity cart-column">
+                        <input class="cart-quantity-input" type="number" value="1">
+                        <button class="btn-1 btn-danger" type="button">REMOVE</button>
+                    </div>
+                </div>
+                <div class="cart-row">
+                    <div class="cart-item cart-column">
+                        <img class="cart-item-image" src="img/product/product-1.jpg">
+                        <span class="cart-item-title">Album 3</span>
+                    </div>
+                    <span class="cart-price cart-column">$9.99</span>
+                    <div class="cart-quantity cart-column">
+                        <input class="cart-quantity-input" type="number" value="2">
+                        <button class="btn-1 btn-danger" type="button">REMOVE</button>
+                    </div>
+                </div>
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">$39.97</span>
+            </div>
+            <button class="btn-1 btn-primary btn-purchase" type="button">PURCHASE</button>
+        </main>
+
+        <main class="footer footer-custome footer-cart">
+            <div class="footer-container">
+                <div class="col-1">
+                    <div class="row-0">
+                        <img src="img/logo.webp" alt="logo">
+                        <p>The customer is at the heart of our <br> unique business model, which includes <br> design.</p>
+                        <a href=""><img src="img/payment.webp" alt="payment-logo"></a>
+                    </div>
+                    <div class="row row-1">
+                        <h3>SHOPPING</h3>
+                        <ul class="footer-shopping-link">
+                            <li><a href="">Clothing Store</a></li>
+                            <li><a href="">Trending Shoes</a></li>
+                            <li><a href="">Accessories</a></li>
+                            <li><a href="">Sale</a></li>
+                        </ul>
+                    </div>
+                    <div class="row row-2">
+                        <h3>SHOPPING</h3>
+                        <ul class="footer-shopping-link">
+                            <li><a href="">Contact Us</a></li>
+                            <li><a href="">Payment Method</a></li>
+                            <li><a href="">Delivery</a></li>
+                            <li><a href="">Return & Packages</a></li>
+                        </ul>
+                    </div>
+                    <div class="row-3">
+                        <h1>NEWLETTER</h1>
+                        <p>Be the first to know about new <br> arrivals, look books, sales & promos!</p>
+                        <form action="" method="post">
+                            <input type="email" name="email-id" placeholder="Your email">
+                            <button type="submit"><i class="fa fa-envelope-o"></i></button>
+                        </form>
+                    </div>
+                </div>
+                <div class="hr">
+                    <hr>
+                </div>
+                <div class="col-2">
+                    <p>All right reserved to GROUP 8.</p>
+                </div>
+            </div>
+        </main>
+
+    </body>
+</html>
